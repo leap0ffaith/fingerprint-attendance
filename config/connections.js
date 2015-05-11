@@ -20,8 +20,6 @@
  */
 
 module.exports.connections = {
-
-  'default' : 'mongo',
   mongo: {
       module   : 'sails-mongo',
       url: process.env.DB_URL,
